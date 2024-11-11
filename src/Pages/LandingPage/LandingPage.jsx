@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 //styling
 import './LandingPage.css';
-import afhlogo from "../../assets/afhlogo-C33W3E5x.svg";
+import afhlogo from "../../assets/afhlogo.svg";
 
 
 function LandingPage() {
