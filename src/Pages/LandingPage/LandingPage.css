@@ -1,0 +1,44 @@
+h1 {
+    font-size: 3.2em;
+    line-height: 1.1;
+  }
+  p {
+    font-size: 1.5em;
+    font-weight: 500;
+  }
+  .marquee {
+    overflow: hidden;
+    white-space: nowrap;
+    display: inline-block;
+    animation: scrollText 10s linear infinite;
+  }
+  
+  @keyframes scrollText {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+.shop p span{
+  margin-left: 5px;
+}  
+.shop {
+  background-color: #25D366;
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  height: 65px;
+  max-width: 350px;
+}
+.shop:hover {
+  background-color: #075a26;
+}
+
+.shop a{
+  text-decoration: none;
+  color: antiquewhite;
+}
